@@ -1,0 +1,17 @@
+1: https://github.com/mikeharbidge/cmput404lab3
+2: Standard page with the message "The install worked successfully! Congratulations!"
+
+3: / = 404 page not found
+   /polls = Name error
+
+4: A Django migration migrates values from the webserver to the Database, otherwise the data is not serialized and not stored for later.
+
+5: It shows the Django administration page, and allows you to create Choices and Questions.
+These must be registered in admin.py to show up on the admin page 
+
+6: NameError using .../polls/38, /38/results, and /38/vote. Using a String returns 404.
+
+7: Because the items stored at the URL or the URL itself could change and it will not be updated
+
+8: It makes it much easier to set up multiple webpages in the same way, but they must follow the template. 
+If you are making many pages with the same format/template it is very useful, but if you have pages that need to have a different format the template will not work.
